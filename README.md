@@ -39,10 +39,9 @@ YOLOv8-Seg, Fast-SCNN, Mask R-CNN을 학습해 화재 영역 분할 성능과 �
 ### [차선 훼손 분류 및 세그멘테이션](https://github.com/jeongrubin/-Lane-damage-classification)
 
 - 2024.03–2024.07: 차선 훼손 등급 분류 및 폴리곤 라벨링
-- 2026.09: 기존 라벨 데이터를 활용한 U-Net 세그멘테이션 추가 실험
 
 차량 카메라 이미지로 차선의 훼손 등급을 분류하고, 폴리곤 라벨을 이용해 훼손 위치를 찾는 U-Net 실험을 진행했습니다.
 
 ## 사용 기술
 
-Python을 주로 사용합니다. PyTorch로 모델을 학습하고 OpenCV로 영상과 이미지 데이터를 처리했습니다. 결과 확인용 웹 화면은 Streamlit으로 구현했습니다.
+Python을 주로 사용합니다. PyTorch로 모델을 학습하고 OpenCV로 영상과 이미지 데이터를 처리했습니다. 
